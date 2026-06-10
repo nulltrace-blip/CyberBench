@@ -1,0 +1,37 @@
+# Android / Gradle
+*.iml
+.gradle/
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+/build
+App/build/
+App/app/build/
+App/.gradle/
+
+# IDE
+.idea/
+App/.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Secrets / CI artefacts
+*.env
+secrets.properties
+release.keystore
