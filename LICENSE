@@ -1,0 +1,35 @@
+Copyright (c) 2026 NullTrace
+
+Source-Available License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated source code files (the "Software"), to view
+and inspect the Software for the purpose of verifying its behavior, security
+properties, and absence of malicious or privacy-invasive code, and to compile
+and run the Software on personal devices solely for personal, non-commercial
+evaluation.
+
+The following are expressly prohibited without the prior written permission
+of the copyright holder:
+
+  1. Redistribution of the Software or any derivative works, in source or
+     binary form, through any channel including but not limited to app stores,
+     sideloading services, direct download, or package registries.
+
+  2. Commercial use of the Software or any portion thereof, including selling,
+     licensing, sublicensing, or incorporating it into a commercial product or
+     service.
+
+  3. Publishing or distributing compiled builds of the Software or any
+     derivative works to third parties, whether for free or for payment.
+
+  4. Removing or altering this license notice or any copyright attribution
+     present in the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
+OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
