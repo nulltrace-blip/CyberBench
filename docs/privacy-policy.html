@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — CyberBench</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<nav>
+  <span class="logo"><a href="index.html" style="color:inherit;text-decoration:none">Cyber<span>Bench</span></a></span>
+  <a href="tutorials/">Tutorials</a>
+  <a href="privacy-policy.html">Privacy</a>
+  <a href="https://github.com/nulltrace-blip/CyberBench">GitHub</a>
+</nav>
+
+<div class="policy-body">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: June 2026 &nbsp;·&nbsp; Last updated: June 2026</p>
+
+  <h2>Summary</h2>
+  <p>CyberBench collects <strong style="color:#e6edf3">no personal data</strong>, sends
+  <strong style="color:#e6edf3">no data to any server</strong>, and contains
+  <strong style="color:#e6edf3">no advertising or tracking</strong> of any kind.
+  All operations run entirely on your device.</p>
+
+  <h2>What data does CyberBench collect?</h2>
+  <p>None. CyberBench does not collect, store, transmit, or share any personal information,
+  usage statistics, crash reports, or analytics data.</p>
+
+  <h2>Internet access</h2>
+  <p>The app declares the <code>INTERNET</code> permission because certain tools make network
+  connections that <em>you</em> initiate and control:</p>
+  <ul>
+    <li><strong>Network Scanner</strong> — connects to hosts you specify for port scanning.</li>
+    <li><strong>Domain OSINT</strong> — performs DNS lookups and other queries for domains you enter.</li>
+    <li><strong>Web Tools</strong> — fetches URLs you provide to inspect HTTP responses.</li>
+    <li><strong>SMB Explorer</strong> — connects to SMB servers you configure.</li>
+  </ul>
+  <p>No background connections are made. The app never contacts any server operated by the developer.</p>
+
+  <h2>Device permissions</h2>
+  <table>
+    <thead>
+      <tr><th>Permission</th><th>Why it's needed</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>INTERNET</code></td>
+        <td>User-initiated network tools (see above)</td>
+      </tr>
+      <tr>
+        <td><code>CAMERA</code></td>
+        <td>QR code scanning in the Recipe Builder</td>
+      </tr>
+      <tr>
+        <td><code>ACCESS_FINE_LOCATION</code></td>
+        <td>Required by Android's Wi-Fi scanning API (Android 9+); no location data is stored or transmitted</td>
+      </tr>
+      <tr>
+        <td><code>ACCESS_WIFI_STATE</code> / <code>CHANGE_WIFI_STATE</code></td>
+        <td>WiFi Analyzer tool — reads nearby access point info on-device only</td>
+      </tr>
+      <tr>
+        <td><code>NEARBY_WIFI_DEVICES</code></td>
+        <td>WiFi scanning on Android 13+; replaces location permission for Wi-Fi on newer devices</td>
+      </tr>
+      <tr>
+        <td><code>QUERY_ALL_PACKAGES</code></td>
+        <td>App Scanner — enumerates installed apps for local security analysis only; package data never leaves the device</td>
+      </tr>
+      <tr>
+        <td><code>POST_NOTIFICATIONS</code></td>
+        <td>Optional completion notifications for long-running background scans</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Local data storage</h2>
+  <p>CyberBench stores data locally on your device only:</p>
+  <ul>
+    <li>Saved recipes (local SQLite database)</li>
+    <li>Scan history (local SQLite database)</li>
+    <li>App preferences (SharedPreferences — e.g., screen capture protection, onboarding state)</li>
+  </ul>
+  <p>Cloud backup is <strong style="color:#e6edf3">disabled</strong>
+  (<code>android:allowBackup="false"</code>).
+  This data never leaves your device and is deleted when you uninstall the app.</p>
+
+  <h2>Third-party services</h2>
+  <p>CyberBench does not integrate any third-party analytics, advertising, crash reporting,
+  or tracking SDKs.</p>
+
+  <h2>Children's privacy</h2>
+  <p>CyberBench is not directed at children under 13. It is intended for security professionals,
+  students, and researchers conducting authorized security testing.</p>
+
+  <h2>Authorized use</h2>
+  <p>CyberBench is a security research toolkit. It is intended for testing systems you own or
+  have explicit written permission to test, CTF competitions, and security education.
+  Using these tools against systems without authorization is illegal and unethical.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy is updated, the new version will be published at this URL and the
+  effective date will be updated accordingly.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy? Open an issue at
+  <a href="https://github.com/nulltrace-blip/CyberBench/issues">github.com/nulltrace-blip/CyberBench/issues</a>.</p>
+</div>
+
+<footer>
+  <p>
+    <a href="index.html">Home</a> &nbsp;·&nbsp;
+    <a href="tutorials/">Tutorials</a> &nbsp;·&nbsp;
+    <a href="https://github.com/nulltrace-blip/CyberBench">GitHub</a>
+  </p>
+</footer>
+
+</body>
+</html>
