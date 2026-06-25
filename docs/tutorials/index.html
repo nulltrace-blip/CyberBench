@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorials — CyberBench</title>
+  <meta name="description" content="Step-by-step guides for using CyberBench in CTF challenges, pentesting workflows, and security research." />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+
+<nav>
+  <span class="logo"><a href="../index.html" style="color:inherit;text-decoration:none">Cyber<span>Bench</span></a></span>
+  <a href="../tutorials/">Tutorials</a>
+  <a href="../privacy-policy.html">Privacy</a>
+  <a href="https://github.com/nulltrace-blip/CyberBench">GitHub</a>
+</nav>
+
+<section>
+  <div class="container">
+    <h1>Tutorials</h1>
+    <p>Hands-on guides for CTF players, pentesters, and security researchers.<br/>
+    More guides are being added — check back or
+    <a href="https://github.com/nulltrace-blip/CyberBench">star the repo</a> to follow along.</p>
+
+    <!-- Getting Started -->
+    <h2 style="margin-top:48px">Getting Started</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">Beginner</div>
+          <h3>Your First Recipe — Base64 + SHA-256</h3>
+          <p>Build your first multi-step pipeline: decode a Base64 string,
+             then hash the result. Covers the Recipe Builder basics.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">Beginner</div>
+          <h3>JWT Inspection and Forgery</h3>
+          <p>Decode a JWT token, inspect its claims, then use JWT Forge to
+             create a modified token — a classic CTF technique.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+    </div>
+
+    <!-- CTF Workflows -->
+    <h2 style="margin-top:48px">CTF Workflows</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">CTF</div>
+          <h3>Multi-layer Encoding Challenges</h3>
+          <p>Chain Base64, Hex, URL-encode, and ROT13 in a single recipe to
+             peel back obfuscated CTF flags layer by layer.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">CTF</div>
+          <h3>Cracking Custom Hash Schemes</h3>
+          <p>Use Hash Identify, then chain the right hash operation to verify
+             a known plaintext — useful when a CTF challenge uses obscure digests.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">CTF</div>
+          <h3>Steganography — LSB Extraction</h3>
+          <p>Use the Steg Detect and LSB Decode operations to extract hidden
+             messages from PNG images in image-based CTF challenges.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+    </div>
+
+    <!-- Network & Recon -->
+    <h2 style="margin-top:48px">Network &amp; Recon</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">Pentest</div>
+          <h3>Local Network Recon in 5 Minutes</h3>
+          <p>Scan your subnet for live hosts and open ports, then pivot to
+             Domain OSINT for any publicly routable targets you find.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">Pentest</div>
+          <h3>Domain OSINT — Full Recon Workflow</h3>
+          <p>DNS records, MX security (SPF/DKIM/DMARC), HTTP headers,
+             and SSL certificate inspection in one tool.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">Pentest</div>
+          <h3>WiFi Security Assessment</h3>
+          <p>Identify weak encryption (WEP, open networks), hidden SSIDs,
+             and rogue access points using the WiFi Analyzer.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+    </div>
+
+    <!-- Android Analysis -->
+    <h2 style="margin-top:48px">Android Analysis</h2>
+    <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">Mobile</div>
+          <h3>APK Reconnaissance — No Root Needed</h3>
+          <p>Parse an APK's manifest, inspect exported activities and receivers,
+             and identify attack surface using the App Scanner.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+      <div class="tutorial-card coming-soon">
+        <div style="flex:1">
+          <div class="tutorial-tag">Mobile</div>
+          <h3>Broadcast Intent Monitoring</h3>
+          <p>Capture and filter live broadcasts to understand inter-app
+             communication and identify information leakage.</p>
+        </div>
+        <span style="color:var(--muted);font-size:13px;white-space:nowrap">Coming soon</span>
+      </div>
+
+    </div>
+
+    <div style="margin-top:48px;padding:24px;background:var(--surface);border:1px solid var(--border);border-radius:10px;text-align:center">
+      <h3 style="margin-bottom:8px">Have a use case to share?</h3>
+      <p>Open a GitHub issue or PR with your tutorial idea and we'll add it to the site.</p>
+      <a href="https://github.com/nulltrace-blip/CyberBench/issues" class="btn btn-outline" style="margin-top:16px;display:inline-flex">
+        Suggest a Tutorial
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>
+    <a href="../index.html">Home</a> &nbsp;·&nbsp;
+    <a href="../privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="https://github.com/nulltrace-blip/CyberBench">GitHub</a>
+  </p>
+</footer>
+
+</body>
+</html>
